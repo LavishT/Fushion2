@@ -9,6 +9,7 @@
 </head>
 <body>
     <header>
+        <!-- Header for different actions and to link to other pages.-->
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Fushion2</a>
@@ -17,6 +18,7 @@
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                <!-- unordered list with lists of all the items in the header-->
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                     <partial name="_LoginPartial" />
                     <ul class="navbar-nav flex-grow-1">
@@ -42,7 +44,7 @@
             @RenderBody()
         </main>
     </div>
-
+    <!-- Footer section for some copyright an to give credits..-->
     <footer class="border-top footer text-muted">
         <div class="container">
             &copy; 2020 - Fushion2 - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>- Lavish Talwar(2004265716) Credits <a href ="https://bootswatch.com">Bootswatch.com</a>

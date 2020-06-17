@@ -17,16 +17,17 @@ namespace Fushion2.Controllers
         {
             _logger = logger;
         }
-
+        // Index page 
         public IActionResult Index()
         {
             return View();
         }
-
+        // Privacy page
         public IActionResult Privacy()
         {
             return View();
         }
+        //About page
         public IActionResult About()
         {
             return View();
